@@ -1,0 +1,2 @@
+C:\Users\jeffersons\Source\Repos\WalmartProject\obj\x86\Debug\Walmart Project Search API.csprojResolveAssemblyReference.cache
+C:\Users\jeffersons\Source\Repos\WalmartProject\obj\x86\Debug\Walmart Project Search API.csproj.CoreCompileInputs.cache

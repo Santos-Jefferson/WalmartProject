@@ -1,6 +1,7 @@
 ﻿<!DOCTYPE html>
 <html>
 <head>
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WalmartSearchApi</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -9,22 +10,19 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 </head>
 <body>
-
     <div class="topnav">
         <a href="index.html"><img src="images/logowalmartblue.jpg" style="max-width:100%;height:auto;float:left;"></a>
         <div class="search-container">
             <input type="text" placeholder="Product Search" name="search" id="searchString">
-            <button onclick="getStringFromUser()"><i class="fa fa-search"></i></button>
-
+            <button onclick="main()"><i class="fa fa-search"></i></button>
+            
         </div>
     </div>
-
     <div style="padding-left:16px">
         <h2></h2>
-        <p id="jsonReturn"></p>
-
-        <p></p>
+        <p id="productsReturn"></p>
+        <p id="recommReturn"></p>
     </div>
-
+    
 </body>
 </html>

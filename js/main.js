@@ -13,7 +13,7 @@ function getUrlProdPath(input, token){
 }
 
 function getUrlRecommPath(input, token) {
-    var result = urlDomain + "/v1/nbp?apiKey=" + token + "&itemId=" + input;
+    var result = urlDomain + "/v1/nbp?apiKey=" + token + "&itemId=" + input + "&format=json";
     return result;
 }
 
@@ -51,17 +51,15 @@ function getRecommFromWalmart(itemId) {
     var settings = {
         "async": true,
         "crossDomain": true,
-        "dataType": 'jsonp',
-        "url": urlDomain + "/v1/nbp?apiKey=" + tokenApi + "&itemId=" + 923785964,
+        //"dataType": 'json',
+        "url": urlDomain + "/v1/nbp?apiKey=" + tokenApi + "&itemId=278727265",
         "method": "GET",
         "headers": {
-            "Cache-Control": "no-cache",
-            "Postman-Token": "a6eb861a-7b15-45c0-8ce1-158db64533ce"
         }
     }
     var table = "";
     $.ajax(settings).done(function (response) {
-        //console.log(response);
+        console.log(response);
         for (var i = 0; i < response.items.length; i++) {
             table += "<div class=prodGallery>" + response.items[i].largeImage + "></a>";
             table += "<div class=desc><strong>" + response.items[i].name + "</strong><br /><br />";
@@ -72,26 +70,29 @@ function getRecommFromWalmart(itemId) {
 }
 
 function getRecommFromWalmartTest() {
-    var settings = {
-        "async": true,
-        "crossDomain": true,
-        "url": "https://api.walmartlabs.com/v1/nbp?apiKey=8d97n679j89udpwveju6naw3&itemId=278727265",
-        "method": "GET",
-        "headers": {
-            "Cache-Control": "no-cache",
-            "Postman-Token": "39bf9206-3a95-431c-a362-4ed82389a2cd"
-        }
-    }
+    //var settings = {
+    //    "async": true,
+    //    "crossDomain": true,
+    //    "url": "https://api.walmartlabs.com/v1/nbp?apiKey=8d97n679j89udpwveju6naw3&itemId=278727265",
+    //    "method": "GET",
+    //    "headers": {
+    //        "Cache-Control": "no-cache",
+    //        "Postman-Token": "5daf0432-6040-420c-b99e-28c5ff352206"
+    //    }
+    //}
 
-    $.ajax(settings).done(function (response) {
-        console.log(response);
-    });
+    //$.ajax(settings).done(function (response) {
+    //    console.log(response);
+    //});
+
+
+
 }
 
 
 function main() {
-    //var log = getRecommFromWalmartTest();
-    //console.log(log);
+    //getRecommFromWalmartTest();
+    
 
     var input = getInput();
     var urlRecommPath = getUrlRecommPath(input, tokenApi);

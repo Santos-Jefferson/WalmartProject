@@ -61,6 +61,7 @@
     <Content Include="images\walmart-logo-png-5.png" />
     <Content Include="index.html" />
     <Content Include="js\main.js" />
+    <Content Include="prodDesc.html" />
   </ItemGroup>
   <ItemGroup>
     <None Include=".git\config" />

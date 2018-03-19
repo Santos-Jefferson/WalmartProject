@@ -20,7 +20,7 @@
             table += "<div class=prodGallery><a target=_blank href=http://teste.com><img src=" + response.items[i].thumbnailImage + "></a>";
             table += "<div class=desc><strong>" + response.items[i].name + "</strong><br /><br />";
             table += response.items[i].shortDescription + "<br />";
-            table += "<strong>" + response.items[i].salePrice.toFixed(2) + "</strong></div></div>";
+            table += "<strong>$ " + response.items[i].salePrice.toFixed(2) + "</strong></div></div>";
         }
         document.getElementById("jsonReturn").innerHTML = table;
     });

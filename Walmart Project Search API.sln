@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2005
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Walmart Project Search API", "Walmart Project Search API.csproj", "{86E6CD40-7BAF-41AE-B581-19CC67916B4C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{86E6CD40-7BAF-41AE-B581-19CC67916B4C}.Debug|x86.ActiveCfg = Debug|x86
+		{86E6CD40-7BAF-41AE-B581-19CC67916B4C}.Debug|x86.Build.0 = Debug|x86
+		{86E6CD40-7BAF-41AE-B581-19CC67916B4C}.Release|x86.ActiveCfg = Release|x86
+		{86E6CD40-7BAF-41AE-B581-19CC67916B4C}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {33ADABBD-AA1B-49AE-BD8E-DF111BF8CC84}
+	EndGlobalSection
+EndGlobal

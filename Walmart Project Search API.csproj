@@ -1,0 +1,186 @@
+﻿<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProjectGuid>{86E6CD40-7BAF-41AE-B581-19CC67916B4C}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <NoStandardLibraries>false</NoStandardLibraries>
+    <AssemblyName>WindowsApplication</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace>Walmart_Project_Search_API</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="css\default.css" />
+    <Content Include="fonts\Bogle_Fonts\Bogle_Fonts.001\Web\WebfontSpecimen_BogleWeb-Black.html" />
+    <Content Include="fonts\Bogle_Fonts\Bogle_Fonts.001\Web\WebfontSpecimen_BogleWeb-BlackItalic.html" />
+    <Content Include="fonts\Bogle_Fonts\Bogle_Fonts.001\Web\WebfontSpecimen_BogleWeb-Bold.html" />
+    <Content Include="fonts\Bogle_Fonts\Bogle_Fonts.001\Web\WebfontSpecimen_BogleWeb-BoldItalic.html" />
+    <Content Include="fonts\Bogle_Fonts\Bogle_Fonts.001\Web\WebfontSpecimen_BogleWeb-Regular.html" />
+    <Content Include="fonts\Bogle_Fonts\Bogle_Fonts.001\Web\WebfontSpecimen_BogleWeb-RegularItalic.html" />
+    <Content Include="fonts\Bogle_Fonts\__MACOSX\Bogle_Fonts.001\Web\._WebfontSpecimen_BogleWeb-Black.html" />
+    <Content Include="fonts\Bogle_Fonts\__MACOSX\Bogle_Fonts.001\Web\._WebfontSpecimen_BogleWeb-BlackItalic.html" />
+    <Content Include="fonts\Bogle_Fonts\__MACOSX\Bogle_Fonts.001\Web\._WebfontSpecimen_BogleWeb-Bold.html" />
+    <Content Include="fonts\Bogle_Fonts\__MACOSX\Bogle_Fonts.001\Web\._WebfontSpecimen_BogleWeb-BoldItalic.html" />
+    <Content Include="fonts\Bogle_Fonts\__MACOSX\Bogle_Fonts.001\Web\._WebfontSpecimen_BogleWeb-Regular.html" />
+    <Content Include="fonts\Bogle_Fonts\__MACOSX\Bogle_Fonts.001\Web\._WebfontSpecimen_BogleWeb-RegularItalic.html" />
+    <Content Include="images\logowalmart.jpg" />
+    <Content Include="images\logowalmartblue.jpg" />
+    <Content Include="images\walmart-logo-png-5.png" />
+    <Content Include="index.html" />
+    <Content Include="js\main.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include=".git\config" />
+    <None Include=".git\description" />
+    <None Include=".git\HEAD" />
+    <None Include=".git\hooks\applypatch-msg.sample" />
+    <None Include=".git\hooks\commit-msg.sample" />
+    <None Include=".git\hooks\fsmonitor-watchman.sample" />
+    <None Include=".git\hooks\post-update.sample" />
+    <None Include=".git\hooks\pre-applypatch.sample" />
+    <None Include=".git\hooks\pre-commit.sample" />
+    <None Include=".git\hooks\pre-push.sample" />
+    <None Include=".git\hooks\pre-rebase.sample" />
+    <None Include=".git\hooks\pre-receive.sample" />
+    <None Include=".git\hooks\prepare-commit-msg.sample" />
+    <None Include=".git\hooks\update.sample" />
+    <None Include=".git\index" />
+    <None Include=".git\info\exclude" />
+    <None Include=".git\logs\HEAD" />
+    <None Include=".git\logs\refs\heads\master" />
+    <None Include=".git\logs\refs\remotes\origin\HEAD" />
+    <None Include=".git\objects\02\e635da34d0ed0a5ee8503537bb5a456f1b0bc4" />
+    <None Include=".git\objects\10\bacbe29798345acebb6b5f03f916c4a59d4b38" />
+    <None Include=".git\objects\2a\257c73e2d71e0f37d525b8bd1af286313d85ea" />
+    <None Include=".git\objects\42\765e4f25715957afb4b977b85454dd7085a102" />
+    <None Include=".git\objects\82\ab41cb20f0e27cb61d8ab32a812707beeb3ca2" />
+    <None Include=".git\objects\9d\c0ce51176013d92b0f5b62c30011753c4049cc" />
+    <None Include=".git\objects\9f\c5c5aec9121bc342d4b1bad4ac28addfa7b60c" />
+    <None Include=".git\objects\c3\8e74a9037ae7f7d0cb5fa2cc2b490105d080c4" />
+    <None Include=".git\objects\d1\1cfdd9a29a620bfc4be720e1450b2969ca3b4f" />
+    <None Include=".git\objects\da\7b32ecdd44ac61a494f9d50df1e1e1bb9c3ba7" />
+    <None Include=".git\objects\f4\baa6fcf13c41722865b5d261b21bb27162e9fe" />
+    <None Include=".git\packed-refs" />
+    <None Include=".git\refs\heads\master" />
+    <None Include=".git\refs\remotes\origin\HEAD" />
+    <None Include=".vs\config\applicationhost.config" />
+    <None Include=".vs\ProjectSettings.json" />
+    <None Include=".vs\slnx.sqlite" />
+    <None Include=".vs\VSWorkspaceState.json" />
+    <None Include=".vs\WalmartProject\v15\.suo" />
+    <None Include="fonts\Bogle_Fonts\Bogle_Fonts.001\.DS_Store" />
+    <None Include="fonts\Bogle_Fonts\Bogle_Fonts.001\Bogle Typeface Sublicense.docx" />
+    <None Include="fonts\Bogle_Fonts\Bogle_Fonts.001\OTF\.DS_Store" />
+    <None Include="fonts\Bogle_Fonts\Bogle_Fonts.001\OTF\Bogle-Black.otf" />
+    <None Include="fonts\Bogle_Fonts\Bogle_Fonts.001\OTF\Bogle-BlackItalic.otf" />
+    <None Include="fonts\Bogle_Fonts\Bogle_Fonts.001\OTF\Bogle-Bold.otf" />
+    <None Include="fonts\Bogle_Fonts\Bogle_Fonts.001\OTF\Bogle-BoldItalic.otf" />
+    <None Include="fonts\Bogle_Fonts\Bogle_Fonts.001\OTF\Bogle-Regular.otf" />
+    <None Include="fonts\Bogle_Fonts\Bogle_Fonts.001\OTF\Bogle-RegularItalic.otf" />
+    <None Include="fonts\Bogle_Fonts\Bogle_Fonts.001\Web\.DS_Store" />
+    <None Include="fonts\Bogle_Fonts\Bogle_Fonts.001\Web\BogleWeb-Black.eot" />
+    <None Include="fonts\Bogle_Fonts\Bogle_Fonts.001\Web\BogleWeb-Black.ttf" />
+    <None Include="fonts\Bogle_Fonts\Bogle_Fonts.001\Web\BogleWeb-Black.woff" />
+    <None Include="fonts\Bogle_Fonts\Bogle_Fonts.001\Web\BogleWeb-Black.woff2" />
+    <None Include="fonts\Bogle_Fonts\Bogle_Fonts.001\Web\BogleWeb-BlackItalic.eot" />
+    <None Include="fonts\Bogle_Fonts\Bogle_Fonts.001\Web\BogleWeb-BlackItalic.ttf" />
+    <None Include="fonts\Bogle_Fonts\Bogle_Fonts.001\Web\BogleWeb-BlackItalic.woff" />
+    <None Include="fonts\Bogle_Fonts\Bogle_Fonts.001\Web\BogleWeb-BlackItalic.woff2" />
+    <None Include="fonts\Bogle_Fonts\Bogle_Fonts.001\Web\BogleWeb-Bold.eot" />
+    <None Include="fonts\Bogle_Fonts\Bogle_Fonts.001\Web\BogleWeb-Bold.ttf" />
+    <None Include="fonts\Bogle_Fonts\Bogle_Fonts.001\Web\BogleWeb-Bold.woff" />
+    <None Include="fonts\Bogle_Fonts\Bogle_Fonts.001\Web\BogleWeb-Bold.woff2" />
+    <None Include="fonts\Bogle_Fonts\Bogle_Fonts.001\Web\BogleWeb-BoldItalic.eot" />
+    <None Include="fonts\Bogle_Fonts\Bogle_Fonts.001\Web\BogleWeb-BoldItalic.ttf" />
+    <None Include="fonts\Bogle_Fonts\Bogle_Fonts.001\Web\BogleWeb-BoldItalic.woff" />
+    <None Include="fonts\Bogle_Fonts\Bogle_Fonts.001\Web\BogleWeb-BoldItalic.woff2" />
+    <None Include="fonts\Bogle_Fonts\Bogle_Fonts.001\Web\BogleWeb-Regular.eot" />
+    <None Include="fonts\Bogle_Fonts\Bogle_Fonts.001\Web\BogleWeb-Regular.ttf" />
+    <None Include="fonts\Bogle_Fonts\Bogle_Fonts.001\Web\BogleWeb-Regular.woff" />
+    <None Include="fonts\Bogle_Fonts\Bogle_Fonts.001\Web\BogleWeb-Regular.woff2" />
+    <None Include="fonts\Bogle_Fonts\Bogle_Fonts.001\Web\BogleWeb-RegularItalic.eot" />
+    <None Include="fonts\Bogle_Fonts\Bogle_Fonts.001\Web\BogleWeb-RegularItalic.ttf" />
+    <None Include="fonts\Bogle_Fonts\Bogle_Fonts.001\Web\BogleWeb-RegularItalic.woff" />
+    <None Include="fonts\Bogle_Fonts\Bogle_Fonts.001\Web\BogleWeb-RegularItalic.woff2" />
+    <None Include="fonts\Bogle_Fonts\__MACOSX\._Bogle_Fonts.001" />
+    <None Include="fonts\Bogle_Fonts\__MACOSX\Bogle_Fonts.001\._.DS_Store" />
+    <None Include="fonts\Bogle_Fonts\__MACOSX\Bogle_Fonts.001\._Bogle Typeface Sublicense.docx" />
+    <None Include="fonts\Bogle_Fonts\__MACOSX\Bogle_Fonts.001\._OTF" />
+    <None Include="fonts\Bogle_Fonts\__MACOSX\Bogle_Fonts.001\._Web" />
+    <None Include="fonts\Bogle_Fonts\__MACOSX\Bogle_Fonts.001\OTF\._.DS_Store" />
+    <None Include="fonts\Bogle_Fonts\__MACOSX\Bogle_Fonts.001\OTF\._Bogle-Black.otf" />
+    <None Include="fonts\Bogle_Fonts\__MACOSX\Bogle_Fonts.001\OTF\._Bogle-BlackItalic.otf" />
+    <None Include="fonts\Bogle_Fonts\__MACOSX\Bogle_Fonts.001\OTF\._Bogle-Bold.otf" />
+    <None Include="fonts\Bogle_Fonts\__MACOSX\Bogle_Fonts.001\OTF\._Bogle-BoldItalic.otf" />
+    <None Include="fonts\Bogle_Fonts\__MACOSX\Bogle_Fonts.001\OTF\._Bogle-Regular.otf" />
+    <None Include="fonts\Bogle_Fonts\__MACOSX\Bogle_Fonts.001\OTF\._Bogle-RegularItalic.otf" />
+    <None Include="fonts\Bogle_Fonts\__MACOSX\Bogle_Fonts.001\Web\._.DS_Store" />
+    <None Include="fonts\Bogle_Fonts\__MACOSX\Bogle_Fonts.001\Web\._BogleWeb-Black.eot" />
+    <None Include="fonts\Bogle_Fonts\__MACOSX\Bogle_Fonts.001\Web\._BogleWeb-Black.ttf" />
+    <None Include="fonts\Bogle_Fonts\__MACOSX\Bogle_Fonts.001\Web\._BogleWeb-Black.woff" />
+    <None Include="fonts\Bogle_Fonts\__MACOSX\Bogle_Fonts.001\Web\._BogleWeb-Black.woff2" />
+    <None Include="fonts\Bogle_Fonts\__MACOSX\Bogle_Fonts.001\Web\._BogleWeb-BlackItalic.eot" />
+    <None Include="fonts\Bogle_Fonts\__MACOSX\Bogle_Fonts.001\Web\._BogleWeb-BlackItalic.ttf" />
+    <None Include="fonts\Bogle_Fonts\__MACOSX\Bogle_Fonts.001\Web\._BogleWeb-BlackItalic.woff" />
+    <None Include="fonts\Bogle_Fonts\__MACOSX\Bogle_Fonts.001\Web\._BogleWeb-BlackItalic.woff2" />
+    <None Include="fonts\Bogle_Fonts\__MACOSX\Bogle_Fonts.001\Web\._BogleWeb-Bold.eot" />
+    <None Include="fonts\Bogle_Fonts\__MACOSX\Bogle_Fonts.001\Web\._BogleWeb-Bold.ttf" />
+    <None Include="fonts\Bogle_Fonts\__MACOSX\Bogle_Fonts.001\Web\._BogleWeb-Bold.woff" />
+    <None Include="fonts\Bogle_Fonts\__MACOSX\Bogle_Fonts.001\Web\._BogleWeb-Bold.woff2" />
+    <None Include="fonts\Bogle_Fonts\__MACOSX\Bogle_Fonts.001\Web\._BogleWeb-BoldItalic.eot" />
+    <None Include="fonts\Bogle_Fonts\__MACOSX\Bogle_Fonts.001\Web\._BogleWeb-BoldItalic.ttf" />
+    <None Include="fonts\Bogle_Fonts\__MACOSX\Bogle_Fonts.001\Web\._BogleWeb-BoldItalic.woff" />
+    <None Include="fonts\Bogle_Fonts\__MACOSX\Bogle_Fonts.001\Web\._BogleWeb-BoldItalic.woff2" />
+    <None Include="fonts\Bogle_Fonts\__MACOSX\Bogle_Fonts.001\Web\._BogleWeb-Regular.eot" />
+    <None Include="fonts\Bogle_Fonts\__MACOSX\Bogle_Fonts.001\Web\._BogleWeb-Regular.ttf" />
+    <None Include="fonts\Bogle_Fonts\__MACOSX\Bogle_Fonts.001\Web\._BogleWeb-Regular.woff" />
+    <None Include="fonts\Bogle_Fonts\__MACOSX\Bogle_Fonts.001\Web\._BogleWeb-Regular.woff2" />
+    <None Include="fonts\Bogle_Fonts\__MACOSX\Bogle_Fonts.001\Web\._BogleWeb-RegularItalic.eot" />
+    <None Include="fonts\Bogle_Fonts\__MACOSX\Bogle_Fonts.001\Web\._BogleWeb-RegularItalic.ttf" />
+    <None Include="fonts\Bogle_Fonts\__MACOSX\Bogle_Fonts.001\Web\._BogleWeb-RegularItalic.woff" />
+    <None Include="fonts\Bogle_Fonts\__MACOSX\Bogle_Fonts.001\Web\._BogleWeb-RegularItalic.woff2" />
+    <None Include="README.md" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include=".git\objects\info\" />
+    <Folder Include=".git\objects\pack\" />
+    <Folder Include=".git\refs\tags\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSHARP.Targets" />
+  <ProjectExtensions>
+    <VisualStudio AllowExistingFolder="true" />
+  </ProjectExtensions>
+</Project>

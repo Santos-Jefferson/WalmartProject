@@ -1,7 +1,7 @@
 ﻿function getStringFromUser() {
     var input = document.getElementById("searchString").value;
     var walmartApiKey = "8d97n679j89udpwveju6naw3";
-    var url = "http://api.walmartlabs.com/v1/search?query=" + input + "&apiKey=" + walmartApiKey;
+    var url = "https://api.walmartlabs.com/v1/search?query=" + input + "&apiKey=" + walmartApiKey;
 
     var settings = {
         "async": true,

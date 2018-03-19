@@ -1,7 +1,7 @@
 ﻿"use strict";
 
 var tokenApi = "8d97n679j89udpwveju6naw3";
-var urlDomain = "http://api.walmartlabs.com";
+var urlDomain = "https://api.walmartlabs.com";
 
 function getInput() {
     return document.getElementById("searchString").value;
